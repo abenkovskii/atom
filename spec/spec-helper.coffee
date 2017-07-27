@@ -64,7 +64,6 @@ beforeEach ->
   atom.project.setPaths([specProjectPath])
 
   window.resetTimeouts()
-  spyOn(Date, 'now').andCallFake -> window.now
   spyOn(_._, "now").andCallFake -> window.now
   spyOn(window, "setTimeout").andCallFake window.fakeSetTimeout
   spyOn(window, "clearTimeout").andCallFake window.fakeClearTimeout
