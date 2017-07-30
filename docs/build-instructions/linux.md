@@ -51,7 +51,7 @@ To also install the newly built application, use `--create-debian-package` or `-
 
 ### Fedora 22+
 
-* `sudo dnf --assumeyes install make gcc gcc-c++ glibc-devel git-core libsecret-devel rpmdevtools libX11-devel libxkbfile-devel`
+* `sudo dnf --assumeyes install make gcc gcc-c++ glibc-devel git-core libsecret-devel rpmdevtools libX11-devel libxkbfile-devel libXScrnSaver`
 
 ### Fedora 21 / CentOS / RHEL
 
